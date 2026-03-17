@@ -1,0 +1,12 @@
+{
+  "name": "movie-explorer-backend",
+  "version": "1.0.0",
+  "description": "backend of movie-explorer",
+  "license": "ISC",
+  "author": "lalit nath",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
