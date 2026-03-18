@@ -5,6 +5,7 @@ export const getFavorites = async (req, res) => {
     const favorites = await Favorite.find({ user: req.user._id });
     res.json(favorites);
   } catch (error) {
+    console.error(error)
     res.status(500).json({ message: error.message });
   }
 };
